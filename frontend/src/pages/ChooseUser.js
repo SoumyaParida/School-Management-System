@@ -142,12 +142,11 @@ const ChooseUser = ({ visitor }) => {
 export default ChooseUser;
 
 const StyledContainer = styled.div`
-  background: linear-gradient(to bottom, #411d70, #19118b);
-  height: 120vh;
-  display: flex;
-  justify-content: center;
-  padding: 2rem;
+  align-items: center;
+  margin-top: 200px;
+  text-align : center;
 `;
+
 
 const StyledPaper = styled(Paper)`
   padding: 20px;
